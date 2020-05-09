@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[About Me](./about.md)
-[Experience](./experience.md)
-[Projects](./projects.md)
-[Resume](./resume.md)
+[About Me](./content/about.md)<br/>
+[Experience](./content/experience.md)<br/>
+[Projects](./content/projects.md)<br/>
+[Resume](./content/resume.md)<br/>
