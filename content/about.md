@@ -4,4 +4,4 @@ layout: default
 
 ## About me
 
-[back](./)
+[back](../)
