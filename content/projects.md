@@ -4,4 +4,4 @@ layout: default
 
 ## Projects
 
-[back](../)
+[back](./index.md)

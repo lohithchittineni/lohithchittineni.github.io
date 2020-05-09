@@ -4,4 +4,4 @@ layout: default
 
 ## Resume
 
-[back](../)
+[back](./index.md)
