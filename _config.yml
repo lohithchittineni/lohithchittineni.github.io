@@ -1,4 +1,6 @@
 theme: jekyll-theme-minimal
 title: Lohith Chittineni
-description: Personal Website
-logo: [/assests/img]
+description: Welcome to my Personal Website!
+logo: /assests/img/logo.png
+show_downloads: true
+google_analytics:
