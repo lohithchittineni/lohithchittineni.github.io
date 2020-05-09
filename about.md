@@ -1,1 +1,7 @@
-## About Me
+---
+layout: default
+---
+
+## About me
+
+[back](./)
