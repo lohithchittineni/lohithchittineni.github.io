@@ -6,7 +6,7 @@ layout: default
 I'm currently a Junior at Purdue University studying Computer Engineering
 in the School of ECE. My interests are in Computer Vision/Deep Learning and Analytics.
 I've been learning more about how these areas can be used to advance the medical
-/healthcare field. Specifically, I excited to learn more about their application
+/healthcare field. Specifically, I'm excited to learn more about their application
 in medical image analysis,image/signal processing.<br/>
 
 
