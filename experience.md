@@ -7,7 +7,7 @@ layout: default
 #### Hewlett Packard Enterprise
 _Software Engineering Intern_
 
-More Info Coming Soon...
+**More Info Coming Soon...**
 
 ---
 
