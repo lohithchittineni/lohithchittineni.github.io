@@ -4,15 +4,15 @@ layout: default
 
 ## Experience
 
-#### Hewlett Packard Enterprise - Remote
-_Software Engineering Intern, Summer 2020_
+### Hewlett Packard Enterprise - Remote
+##### Software Engineering Intern, Summer 2020
 
 **More Info Coming Soon...**
 
 ---
 
-#### LiveData Inc. - Cambrdige, MA
-_Analytics Software Intern, Summer 2019_
+### LiveData Inc. - Cambrdige, MA
+#### Analytics Software Intern, Summer 2019
 
 LiveData inc is a healthcare software company located in Cambridge,MA. I worked in the Analytics Department using primarily Python and SQL. 
 
