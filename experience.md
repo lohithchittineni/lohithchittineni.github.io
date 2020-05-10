@@ -9,6 +9,7 @@ _Software Engineering Intern_
 
 More Info Coming Soon...
 
+---
 
 #### LiveData Inc.
 _Analytics Software Intern_
