@@ -5,7 +5,7 @@ layout: default
 ## Experience
 
 ### Hewlett Packard Enterprise - Remote
-##### Software Engineering Intern, Summer 2020
+#### Software Engineering Intern, Summer 2020
 
 **More Info Coming Soon...**
 
