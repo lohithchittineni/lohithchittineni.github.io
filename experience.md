@@ -4,10 +4,10 @@ layout: default
 
 ## Experience
 
-### Hewlett Packard Enterprise
+#### Hewlett Packard Enterprise
 _Software Engineering Intern_
 
-### LiveData Inc.
+#### LiveData Inc.
 _Analytics Software Intern_
 
 [back](./)
