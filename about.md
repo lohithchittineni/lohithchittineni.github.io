@@ -11,8 +11,8 @@ in medical image analysis,image/signal processing.<br/>
 
 
 While at Purdue I've worked as a Teaching Assistant and
-Research Assistant. In the past, I've interned at a healthcare software company 
-called LiveData Inc. as an Analytics Software Intern. This Summer I will be
+Research Assistant. In the past, I've interned at LiveData Inc. 
+as an Analytics Software Intern. This Summer I will be
 working as a Software Engineering Intern at Hewlett-Packard Enterprise. <br/>
 
 
