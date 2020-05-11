@@ -7,7 +7,8 @@ layout: default
 ### [Hewlett Packard Enterprise](https://www.hpe.com/us/en/home.html "HPE Official Website") - Remote
 #### Software Engineering Intern, Summer 2020
 
-**More Info Coming Soon...**
+Working along HPC group on Slingshot platform.
+_More Info Coming Soon..._
 
 ---
 
