@@ -4,7 +4,10 @@ layout: default
 
 ## Resume
 
-#### Quick Summary/ Key Points
+#### Resume PDF: 
+Coming Soon...
+
+_Quick Summary/ Key Points_
 - Top Skills
     - Python, C/C++, SQL
 
