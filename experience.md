@@ -12,7 +12,7 @@ _More Info Coming Soon..._
 
 ---
 
-### [LiveData Inc.](https://www.livedata.com/ "LiveData Inc. Official Website") - Cambrdige, MA
+### [LiveData Inc.](https://www.livedata.com/ "LiveData Inc. Official Website") - Cambridge, MA
 #### Analytics Software Intern, Summer 2019
 
 LiveData inc is a healthcare software company located in Cambridge,MA. I worked in the Analytics Department using primarily Python and SQL. 
