@@ -26,3 +26,7 @@ Here are some of the kind responses students gave about my teaching assistance.
 Lohith was very helpful in answering any questions about the lab and our code.
 
 >He is willing to teach us how to reword problems to determine the solution to those problems.
+
+>Lohith was very helpful in answering any questions about the lab and our code.
+
+L>ohith was always very patient during lab and always helped students to the best of his ability.
