@@ -12,7 +12,7 @@ proctoring a weekly lab section where students work in small lab groups to compl
 programming assignment. I also would help with holding weekly office hours. I have proctored
 4 different lab sections and have been responsible for over 100 students.
 
-Here are some of the kind responses students gave about my teaching assistance.
+Here are some of the kind responses/evaluations students gave about my teaching assistance.
 
 >Lohith is such a great TA. He is very good at explaining confusing topics. He is friendly and approachable. He is very helpful when it comes to questions, and he always answers emails.
 
