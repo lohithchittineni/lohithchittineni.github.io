@@ -29,4 +29,4 @@ Lohith was very helpful in answering any questions about the lab and our code.
 
 >Lohith was very helpful in answering any questions about the lab and our code.
 
-L>ohith was always very patient during lab and always helped students to the best of his ability.
+>Lohith was always very patient during lab and always helped students to the best of his ability.
