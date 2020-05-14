@@ -22,8 +22,6 @@ Here are some of the kind responses/evaluations students gave about my teaching 
 
 >Mr. Chittineni was quick to help students with any problems they may have had by assessing where they went wrong, as well as what the proper thought process and commands were to get the student back on track without revealing the answer.
 
->Mr. Chittineni was always prepared for lab and everything runs like clockwork. I almost always know what to expect.
-
 >Lohith was very helpful in answering any questions about the lab and our code.
 
 >He is willing to teach us how to reword problems to determine the solution to those problems.
