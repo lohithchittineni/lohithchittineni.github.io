@@ -8,10 +8,7 @@ layout: default
 
 I am currently an ECE UTA for _Python for Data Science_ ECE 20875. This class focuses on intro Python programming and learning more about data science fundamentals. I am responsible for providing support and helping students solve problems and answer questions they have on hw and projects.
 
-I've been a TA for the intro to C Programming class CS159. For this class my main responsibilities include
-proctoring a weekly lab section where students work in small lab groups to complete a 
-programming assignment. I also would help with holding weekly office hours. I have proctored
-4 different lab sections and have been responsible for over 100 students.
+I've been a TA for the class _Programming Application for Engineers_ CS159, which is an intro to C programming class. For this class my main responsibilities include proctoring a weekly lab section where students work in small lab groups to complete a programming assignment. I also would help with holding weekly office hours. I have proctored 4 different lab sections and have been responsible for over 100 students.
 
 Here are some of the kind responses/evaluations students gave about my teaching assistance.
 
