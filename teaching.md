@@ -6,7 +6,7 @@ layout: default
 ---
 ### ECE UTA @ Purdue
 
-I am currently for an ECE UTA for _Python for Data Science_ ECE 20875. This class focuses on intro Python programming and learning more about data science fundamentals. I am responsible for providing support and helping students solve problems and answer questions they have on hw and projects.
+I am currently an ECE UTA for _Python for Data Science_ ECE 20875. This class focuses on intro Python programming and learning more about data science fundamentals. I am responsible for providing support and helping students solve problems and answer questions they have on hw and projects.
 
 I've been a TA for the intro to C Programming class CS159. For this class my main responsibilities include
 proctoring a weekly lab section where students work in small lab groups to complete a 
