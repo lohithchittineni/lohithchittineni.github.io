@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## About me
+# ABOUT ME
 ---
 
 I'm currently a Junior at Purdue University studying Computer Engineering

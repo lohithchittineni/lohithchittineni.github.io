@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Resume
+# Resume
 ---
 #### Resume PDF: 
 Coming Soon...

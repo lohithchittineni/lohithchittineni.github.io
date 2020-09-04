@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Teaching
+# Teaching
 ---
 ### ECE UTA @ Purdue
 

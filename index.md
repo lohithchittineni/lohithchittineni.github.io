@@ -2,7 +2,7 @@
 layout: default
 ---
 # Hi, I'm Lohith!<br/>
-# Welcome to my personal website.
+## Welcome to my website.
 ---
 Find out more information [About Me](./about.md).<br/>
 Learn more about my Work [Experience](./experience.md).<br/>
