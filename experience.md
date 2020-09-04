@@ -4,11 +4,12 @@ layout: default
 
 ## Experience
 
+---
+
 ### [Hewlett Packard Enterprise](https://www.hpe.com/us/en/home.html "HPE Official Website") - Remote
 #### Software Engineering Intern, Summer 2020
 
-Working along HPC group on Slingshot platform.
-_More Info Coming Soon..._
+I worked at a HPE company, Cray Inc., in their HPC group on the Slingshot Platform Team. Worked on automated Firmware Image build scripts, and exposing critical cable information through RESTful interface to simplify workflow and debugging.
 
 ---
 
