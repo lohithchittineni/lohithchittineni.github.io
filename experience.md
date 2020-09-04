@@ -6,17 +6,17 @@ layout: default
 
 ---
 
-### Hewlett Packard Enterprise
-_Remote_
-#### Software Engineering Intern, Summer 2020
+## Hewlett Packard Enterprise
+### Software Engineering Intern
+_Remote_ Summer/Fall 2020
 
 I worked at a HPE company, Cray Inc., in their HPC group on the Slingshot Platform Team. Worked on automated Firmware Image build scripts, and exposing critical cable information through RESTful interface to simplify workflow and debugging.
 
 ---
 
-### LiveData Inc.
-_Cambridge, MA_
-#### Analytics Software Intern, Summer 2019
+## LiveData Inc.
+### Analytics Software Intern
+_Cambridge, MA_ Summer 2019
 
 LiveData inc is a healthcare software company located in Cambridge,MA. I worked in the Analytics Department using primarily Python and SQL. 
 
