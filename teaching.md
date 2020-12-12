@@ -18,7 +18,7 @@ Here are some of the kind responses/evaluations students gave about my teaching 
 
 >Lohith has been a great help to me. During our lab sessions, I've learned things I couldn't on lectures!
 
->Mr. Chittineni was quick to help students with any problems they may have had by assessing where they went wrong, as well as what the proper thought process and commands were to get the student back on track without revealing the answer.
+>Lohith was quick to help students with any problems they may have had by assessing where they went wrong, as well as what the proper thought process and commands were to get the student back on track without revealing the answer.
 
 >Lohith was very helpful in answering any questions about the lab and our code.
 
