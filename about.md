@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
-
-# About me
+[Home](./) [About](./about.html) [Experience](./experience.html) [Teaching](./teaching.html)
 ---
+# About me
 
 I'm currently a Junior at Purdue University studying Computer Engineering
 in the School of ECE. My interests current interests extend to Computer Vision,

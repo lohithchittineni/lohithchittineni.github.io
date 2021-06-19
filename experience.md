@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-
-# Experience
-
+[Home](./) [About](./about.html) [Experience](./experience.html) [Teaching](./teaching.html)
 ---
-
+# Experience
 ## Hewlett Packard Enterprise
 ### Software Engineering Intern
 _Remote_ | Summer/Fall 2020
