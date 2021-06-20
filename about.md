@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[Home](./)     [About](./about.html) [Experience](./experience.html) [Teaching](./teaching.html)
+### [Home](./) [About](./about.html) [Experience](./experience.html) [Teaching](./teaching.html)
 
 ---
 # About me
