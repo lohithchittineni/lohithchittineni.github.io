@@ -1,10 +1,9 @@
 ---
 layout: default
 ---
-### [Home](./) [About](./about.html) [Experience](./experience.html) [Teaching](./teaching.html)
+# Teaching
 
 ---
-# Teaching
 ### ECE UTA @ Purdue
 
 I am currently an ECE UTA for _Python for Data Science_ ECE 20875. This class focuses on intro Python programming and learning more about data science fundamentals. I am responsible for providing support and helping students solve problems and answer questions they have on hw and projects.

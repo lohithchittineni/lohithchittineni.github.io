@@ -1,13 +1,12 @@
 ---
 layout: default
 ---
-### [Home](./) [About](./about.html) [Experience](./experience.html) [Teaching](./teaching.html)
+# Experience
 
 ---
-# Experience
 ## Hewlett Packard Enterprise
 ### Software Engineering Intern
-_Remote_ | Summer/Fall 2020
+_Remote_ | Summer 2020 - Spring 2021
 
 I worked at a HPE company, Cray Inc., in their HPC group on the Slingshot Platform Team. Worked on automated Firmware Image build scripts, and exposing critical cable information through RESTful interface to simplify workflow and debugging.
 
