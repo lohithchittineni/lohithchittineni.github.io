@@ -18,7 +18,7 @@ html {
 }
 
 #home {
-    background-image: linear-gradient(to right,rgb(81, 127, 255),rgba(255, 174, 194, 0.7)), url("images/city.jpg"); 
+    background-image: linear-gradient(to right,rgb(81, 127, 255,.7),rgba(255, 174, 194, 0.5)), url("images/pattern.jpg"); 
     background-attachment: fixed;
     background-size: cover;
 }
