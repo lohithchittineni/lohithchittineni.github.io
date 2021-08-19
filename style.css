@@ -17,12 +17,6 @@ html {
     color: white;
 }
 
-#home {
-    background-image: linear-gradient(to right,rgb(81, 127, 255,.7),rgba(255, 174, 194, 0.5)), url("images/pattern.jpg"); 
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
