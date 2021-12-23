@@ -1,245 +1,114 @@
 <!DOCTYPE html>
-<html>
-<title>Lohith's Website</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-amber.css">
-<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-deep-orange.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="style.css">
-<body>
-
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-      <i class="fa fa-bars"></i>
-    </a>
-    <a href="#home" class="w3-bar-item w3-button">home</a>
-    <a href="#about" class="w3-bar-item w3-button w3-hide-small">about</a>
-    <a href="#work" class="w3-bar-item w3-button w3-hide-small">work</a>
-    <a href="#teaching" class="w3-bar-item w3-button w3-hide-small">teaching</a>
-    <a href="#resume" class="w3-bar-item w3-button w3-hide-small">resume</a>
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">about</a>
-    <a href="#work" class="w3-bar-item w3-button" onclick="toggleFunction()">work</a>
-    <a href="#teaching" class="w3-bar-item w3-button" onclick="toggleFunction()">teaching</a>
-    <a href="#resume" class="w3-bar-item w3-button" onclick="toggleFunction()">resume</a>
-  </div>
-</div>
-
-<div class="w3-row w3-center w3-theme-l5 w3-padding-64" id="home">
-    <div class='w3-center w3-col m12 w3-padding-large w3-theme-l5'>
-      <div style="font-weight:bold">
-        
-        <span style="color: #000000; font-size:4vw">hi! i'm</span><br>
-        <span style="color: #ff6450; font-size:8vw">Lohith Chittineni</span><br>
-        <span style="color: #000000; font-size:4vw;">welcome to my website</spanstyle>
+<html  lang="en">
+  <head>
+    <title>Lohith Chittineni</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+    <body>
+      <div class="content">
+        <h2>Lohith Chittineni</h2>
+        <div>
+          <img id="profile" src="images/profile.jpg" alt="Profile Img">
+        </div>
+        <!-- <div id="links" class="w3-xlarge w3-section w3-center">
+          <a href="http://www.linkedin.com/in/lohithchittineni"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+          <a href="http://www.github.com/lohithchittineni"><i class="fa fa-github w3-hover-opacity "></i></a>
+          <a href="https://www.facebook.com/lohith.chittineni.35/"><i class="fa fa-facebook w3-hover-opacity "></i></a>
+          <a href="mailto: lchittin@purdue.edu"><i class="fa fa-envelope w3-hover-opacity "></i></a>
+        </div> -->
+        <div class="tab">
+          <!-- <button class="tablinks" onclick="openSection(event, 'home')" id="defaultOpen">home</button> -->
+          <button class="tablinks" onclick="openSection(event, 'about')" id="defaultOpen">About</button>
+          <button class="tablinks" onclick="openSection(event, 'interests')">Interests</button>
+          <button class="tablinks" onclick="openSection(event, 'experience')">Experience</button>
+          <!-- <button class="tablinks" onclick="openSection(event, 'projects')">projects</button> -->
+          <button class="tablinks" onclick="openSection(event, 'teaching')">Teaching</button>
+          <button class="tablinks" onclick="openSection(event, 'resume')">Resume</button>
+        </div>
+        <hr>
+        <!-- <div id="home" class="tabcontent">
+          <p style="text-align: center;">Hi, I'm Lohith! Welcome to my website.
+          </p>
+        </div> -->
+        <div id="about" class="tabcontent">
+          <!-- <h3>About</h3> -->
+          <p>Hi, I'm Lohith! I am originally from the Greater Boston Area and graduated from Purdue University with a 
+            Bachelor's Degree in Computer Engineering Dec. 2021. I am currently a graduate student at Purdue University 
+            in the School of Electrical and Computer Engineering working towards my Master's in Computer Engineering. 
+            I am also working as a Software Engineering Intern at Aviatrix and will be continuing there full time 
+            starting Summer 2022.
+          </p>
+        </div>
+        <div id="interests" class="tabcontent">
+          <!-- <h3>Interests</h3> -->
+          <p> My main interests are in Cloud Computing, Embedded Systems, Systems Software, and Big Data Analytics. 
+            Areas I want to work in include Medical Devices and Systems, Wireless and Cyber-Physical Systems, IoT for 
+            Healthcare engineering systems and smart connected cities, as well as Cloud-connected/Wearable embedded computing.
+          </p>
+        </div>
+        <div id="experience" class="tabcontent">
+          <!-- <h3>Experience</h3> -->
+          <p>
+            In the past I've worked at Qualcomm as a Software Engineering Intern on the Modem Systems Test Engineering Team.
+            I've worked at Hewlett Packard Enterprise as a Software/Firmware Development Intern on the Platform Team and
+            Control Plane Team for their High Performance Compute Network. I've also been an Analytics Software Intern for LiveData Inc.
+            on the Analytics Team.
+          </p>
+        </div>
+        <!-- <div id="projects" class="tabcontent">
+          <h3>Projects</h3>
+          <p>
+            <p style="font-size:15px">&#129315;</p>
+          </p>
+        </div> -->
+        <div id="teaching" class="tabcontent">
+          <!-- <h3>Teaching</h3> -->
+          <p>
+            <!-- <p style="font-size:15px">&#129315;</p> -->
+            Undergraduate Teaching Assistant <br>
+            ECE 362: Micrprocessor Systems and interfacing <br>
+            ECE 20875: Python for Data Science <br>
+            CS159: C Programming 
+          </p>
+        </div>
+        <div id="resume" class="tabcontent">
+          <!-- <h3>Resume</h3> -->
+          <p>
+            <!-- <p style="font-size:15px">&#129315;</p> -->
+            Here's a copy of my <a href="pdfs\Lohith Chittineni Resume 2022.pdf">resume</a>
+          </p>
+        </div>
+        <hr>
+        <p style="text-align: center;">Contact me or checkout my other profiles!</p>
+        <div id="links" class="w3-xlarge w3-section w3-center">
+          <a href="http://www.linkedin.com/in/lohithchittineni"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+          <a href="http://www.github.com/lohithchittineni"><i class="fa fa-github w3-hover-opacity "></i></a>
+          <a href="https://www.facebook.com/lohith.chittineni.35/"><i class="fa fa-facebook w3-hover-opacity "></i></a>
+          <a href="mailto: lchittin@purdue.edu"><i class="fa fa-envelope w3-hover-opacity "></i></a>
+        </div>
       </div>
-    </div>
-</div>
-
-<div class="w3-row w3-center w3-theme-l5 w3-padding-64">
-  <div class='w3-center w3-col m12'>
-    <div style="background-image: url('images/city.jpg'); 
-                 background-attachment: fixed;
-                 background-size: contain; background-repeat: no-repeat;">
-                 <br><br><br><br><br><br>
-                 <br><br><br><br><br><br>
-                 <br><br><br><br><br><br>
-    </div>
-  </div>
-</div>
-
-<!-- Container (About Section) -->
-<div class=" w3-container w3-black w3-padding-64" id="about">
-  <h3 class="w3-center" style="color: #ff6450; font-weight:bold" >About Me</h3>
-    <div class="w3-col m6 w3-center w3-padding-large">
-      <img src="images/me.jpg" class="w3-round w3-image" alt="Photo of Me" width="350" height="183">
-    </div>
-      <div class="w3-col m6 w3-padding-large"
-      <p>I’m currently a Senior at Purdue University studying Computer Engineering in the School of ECE.
-         My current interests extend to Cloud Computing, Embedded Systems, Systems Software, and Analytics.
-         I’ve been learning as much as I can from these areas both in and outside of school. I am excited learn 
-         more about their applications in many different industries.</p>
-    </div>
-  </div>
-</div>
-
-<div class="w3-row w3-center w3-theme-l5 w3-padding-16">
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">3</span><br>
-    Internships
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">2</span><br>
-    Teaching Positions
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">1</span><br>
-    Resume
-  </div>
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">&#8734;+</span><br>
-    Hours Debugging &#128579;
-  </div>
-</div>
-
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="work">
-  <h3 class="w3-center" style="color: #ff6450; font-weight:bold">Work</h3>
-  <p class="w3-center"><em>Here's some info on my 3 Internships<br></em></p><br>
-  <div class='w3-content w3-center w3-col m6 w3-padding-large' 
-  style='
-   background-image: white; 
-   background-attachment: fixed;
-   background-size: contain;'>
-    <br><br><br><br><br><br><br>
-    <span style="color: rgb(119, 128, 255);font-size:x-large; font-weight: bolder;">Qualcomm</span><br>
-    <br><br><br><br><br><br><br>
-  </div>
-  <div class='w3-content w3-left-aligned w3-col m6 w3-padding-large' style='background-color: rgb(255, 255, 255)'>
-    <span style="color: rgb(0, 0, 0);font-size:x-large;">SWE Intern</span><br>
-    San Diego, CA<br>
-    Summer 2021<br>
-    More Info Coming Soon.<br>
-    <br><br><br><br><br><br><br><br><br><br><br>
-  </div>
-  <div class='w3-content w3-center w3-col m6 w3-padding-large' 
-        style='
-         background-image: white; 
-         background-attachment: fixed;
-         background-size: contain;''>
-    <br><br><br><br><br><br>
-    <span style="color: rgb(37, 190, 132);font-size:x-large; font-weight: bolder">Hewlett-Packard Enterprise</span><br>
-    <br><br><br><br><br><br>
-  </div>
-  <div class='w3-content w3-left-aligned w3-col m6 w3-padding-large' style='background-color: white'>
-    <span style="color: black;font-size:x-large;">SWE Intern</span><br>
-    Houston, TX <br>
-    Summer 2020 - Spring 2021<br>
-    I worked at a HPE company, Cray Inc., in their HPC group on the Slingshot Platform Team. Worked on automated Firmware Image build scripts, and exposing critical cable information through RESTful interface to simplify workflow and debugging.
-    <br><br><br><br><br><br>
-  </div>
-  <div class='w3-content w3-center w3-col m6 w3-padding-large' 
-  style='
-  background-image: white; 
-  background-attachment: fixed;
-  background-size: cover;''>
-    <br><br><br><br><br><br>
-    <span style="color: rgb(255, 94, 94);font-size:x-large; font-weight: bolder">LiveData Inc.</span><br>
-    <br><br><br><br><br><br>
-  </div>
-  <div class='w3-content w3-left-aligned w3-col m6 w3-padding-large' style='background-color: rgb(255, 255, 255)'>
-    <span style="color: rgb(0, 0, 0);font-size:x-large;">Analytics Software Intern</span><br>
-    Cambridge, MA<br>
-    Summer 2019<br>
-    Developed predictive analytics model to estimate procedure duration time in hospitals using SQL Server Analysis Services and hospital procedure data.
-    Implemented Python test automation scripts using selenium that took over 500 screenshots of analytics dashboards at various resolutions and browsers.
-    Documented ETL process from that would transfer dashboard data from SQLite/Data Warehouse to Tableau workbooks to be visualized
-    <br><br><br>
-  </div>
-</div>
-
-<div class="w3-row w3-center w3-padding-16">
-</div>
-
-<!-- Teaching Section -->
-<div class="w3-container w3-padding-64 w3-theme-l5" id="teaching" style="background-color: #ffbab1;">
-  <h3 class="w3-center" style="color: #ff6450; font-weight:bold">Teaching</h3>
-  <p class="w3-center">Teaching Assistant for Python for Data Science and Intro to C Programming<br>
-  <p class="w3-left-aligned  w3-padding-large">
-    I am currently an ECE UTA for Python for Data Science ECE 20875. This class focuses on intro Python programming 
-    and learning more about data science fundamentals. I am responsible for providing support and helping students 
-    solve problems and answer questions they have on hw and projects.
-    <br>
-    I’ve been a TA for the class Programming Application for Engineers CS159, which is an intro to C programming 
-    class. For this class my main responsibilities include proctoring a weekly lab section where students work in 
-    small lab groups to complete a programming assignment. I also would help with holding weekly office hours. 
-    I have proctored 4 different lab sections and have been responsible for over 100 students.
-  </p>
-  <p class="w3-center">Here are some reviews given by students from lab sections I ran</p>
-  <div class='w3-left-aligned w3-col m4 w3-padding-large'>
-    <i>"Lohith is such a great TA. He is very good at explaining confusing topics. 
-     He is friendly and approachable. He is very helpful when it comes to questions,
-     and he always answers emails."</i>
-  </div>
-  <div class='w3-left-aligned w3-col m4 w3-padding-large '>
-    <i>"He did a really great job answering questions and helped the best he can without giving away the answer. He also was very easy to talk to and get help if needed."
-      <br><br><br>
-    </i>
-  </div>
-
-  <div class='w3-left-aligned w3-col m4 w3-padding-large'>
-    <i>"Lohith was quick to help students with any problems they may have had by assessing where they went wrong, as well as what the proper thought process and commands were to get the student back on track without revealing the answer."</i>
-    <br><br><br>
-  </div>
-  <div class='w3-left-aligned w3-col m4 w3-padding-large '>
-    <i>"Lohith was very helpful in answering any questions about the lab and our code. He is willing to teach us how to reword problems to determine the solution to those problems.""</i>
-    <br><br><br>
-  </div>
-  <div class='w3-left-aligned w3-col m4 w3-padding-large'>
-    <i>"Lohith was always very patient during lab and always helped students to the best of his ability."</i>
-  </div>
-  <div class='w3-left-aligned w3-col m4 w3-padding-large '>
-    <i>"Lohith has been a great help to me. During our lab sessions, I’ve learned things I couldn’t on lectures!"</i>
-    <br><br><br><br><br>
-  </div>
-</div>
-
-<div class="w3-row w3-center w3-padding-16">
-</div>
-
-<!--  Resume Section -->
-<div class="w3-content w3-container w3-padding-64" id="resume">
-  <h3 class="w3-center" style="color: #ff6450; font-weight:bold">Resume</h3>
-  <p class="w3-center">Here's a copy of my resume &#128516;<br><br>
-    <embed src="pdf/Lohith Chittineni Resume 2021.pdf" width="100%" height="500px" />
-</div>
-
-<div class="w3-row w3-center w3-padding-16">
-</div>
-<!-- Footer -->
-<!-- <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off"> -->
-  <footer class="w3-center w3-black w3-padding-64" id="contact">
-  <a href="#home" class="w3-button w3-black"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-  <p>Contact Me at <span style='color: #ff6450; font-weight: bolder;'>lchittin@purdue.edu</span><br>
-    or Check out my other websites</p>
-  <div class="w3-xlarge w3-section">
-    <a href="http://www.linkedin.com/in/lohithchittineni"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-    <a href="http://www.github.com/lohithchittineni"><i class="fa fa-github w3-hover-opacity "></i></a>
-  </div>
-  <p style="color: #ff6450; font-weight:bold">Thanks for stopping by! &#128578;</p>
-</footer>
- 
-<script>
-
-// Change style of navbar on scroll
-window.onscroll = function() {myFunction()};
-function myFunction() {
-    var navbar = document.getElementById("myNavbar");
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-black";
-    } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-black", "");
-    }
-}
-
-// Used to toggle the menu on small screens when clicking on the menu button
-function toggleFunction() {
-    var x = document.getElementById("navDemo");
-    if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show" + " w3-black";
-    } else {
-        x.className = x.className.replace(" w3-show w3-black", "");
-    }
-}
-</script>
-
-</body>
+      <script>
+        function openSection(evt, sectionName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(sectionName).style.display = "block";
+          evt.currentTarget.className += " active";
+        }
+        document.getElementById("defaultOpen").click();
+        </script>
+    </body>
 </html>
+
