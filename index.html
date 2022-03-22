@@ -12,9 +12,16 @@
   </head>
     <body>
       <div class="content">
-        <h2>Lohith Chittineni</h2>
-        <div>
-          <img id="profile" src="images/profile.jpg" alt="Profile Img">
+        <h4 style="text-align: center;">Lohith Chittineni</h4>
+        <div class="tab">
+          <!-- <button class="tablinks" onclick="openSection(event, 'home')" id="defaultOpen">home</button> -->
+          <button class="tablinks" onclick="openSection(event, 'home')" id="defaultOpen">Home</button>
+          <button class="tablinks" onclick="openSection(event, 'about')">About</button>
+          <button class="tablinks" onclick="openSection(event, 'interests')">Interests</button>
+          <button class="tablinks" onclick="openSection(event, 'experience')">Experience</button>
+          <!-- <button class="tablinks" onclick="openSection(event, 'projects')">projects</button> -->
+          <!-- <button class="tablinks" onclick="openSection(event, 'teaching')">Teaching</button>
+          <button class="tablinks" onclick="openSection(event, 'resume')">Resume</button> -->
         </div>
         <!-- <div id="links" class="w3-xlarge w3-section w3-center">
           <a href="http://www.linkedin.com/in/lohithchittineni"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
@@ -22,26 +29,20 @@
           <a href="https://www.facebook.com/lohith.chittineni.35/"><i class="fa fa-facebook w3-hover-opacity "></i></a>
           <a href="mailto: lchittin@purdue.edu"><i class="fa fa-envelope w3-hover-opacity "></i></a>
         </div> -->
-        <div class="tab">
-          <!-- <button class="tablinks" onclick="openSection(event, 'home')" id="defaultOpen">home</button> -->
-          <button class="tablinks" onclick="openSection(event, 'about')" id="defaultOpen">About</button>
-          <button class="tablinks" onclick="openSection(event, 'interests')">Interests</button>
-          <button class="tablinks" onclick="openSection(event, 'experience')">Experience</button>
-          <!-- <button class="tablinks" onclick="openSection(event, 'projects')">projects</button> -->
-          <!-- <button class="tablinks" onclick="openSection(event, 'teaching')">Teaching</button>
-          <button class="tablinks" onclick="openSection(event, 'resume')">Resume</button> -->
-        </div>
         <hr>
-        <!-- <div id="home" class="tabcontent">
-          <p style="text-align: center;">Hi, I'm Lohith! Welcome to my website.
-          </p>
-        </div> -->
+        <div id="home" class="tabcontent">
+          <div class="typewriter">
+            <p id="type-effect">Hi, I'm Lohith! Welcome to my Website.</p>
+          </div>
+          <img id="typing" src="images/typing.GIF" alt="Typing GIF">
+        </div>
+  
         <div id="about" class="tabcontent">
           <!-- <h3>About</h3> -->
-          <p>Hi, I'm Lohith! I am originally from the Greater Boston Area and graduated from Purdue University with a 
+          <img id="profile" src="images/profile.jpg" alt="Profile Img">
+          <p>I am from the Greater Boston Area and graduated from Purdue University with a 
             Bachelor's Degree in Computer Engineering Dec. 2021. I am currently a graduate student at Purdue University 
-            in the School of Electrical and Computer Engineering working towards my Master's in Computer Engineering. 
-            I am also working as a Software Engineering Intern at Aviatrix and will be continuing there full time 
+            working towards my Master's in Computer Engineering. I am also working as a Software Engineering Intern at Aviatrix and will be continuing there full time 
             starting Summer 2022.
           </p>
         </div>
@@ -67,27 +68,7 @@
             Here's a copy of my <a href="pdfs\Lohith Chittineni Resume 2022.pdf">resume</a> for more information.
           </p>
         </div>
-        <!-- <div id="projects" class="tabcontent">
-          <h3>Projects</h3>
-          <p>
-            <p style="font-size:15px">&#129315;</p>
-          </p>
-        </div> -->
-        <!-- <div id="teaching" class="tabcontent">
-          <!-- <h3>Teaching</h3> -->
-          <!-- <p>
-            Undergraduate Teaching Assistant <br>
-            ECE 362: Micrprocessor Systems and interfacing <br>
-            ECE 20875: Python for Data Science <br>
-            CS159: C Programming 
-          </p>
-        </div>
-        <div id="resume" class="tabcontent"> -->
-          <!-- <h3>Resume</h3> -->
-          <!-- <p>
-            Here's a copy of my <a href="pdfs\Lohith Chittineni Resume 2022.pdf">resume</a>
-          </p>
-        </div>  -->
+       
         <hr>
         <p style="text-align: center;">Contact me or checkout my other profiles!</p>
         <div id="links" class="w3-xlarge w3-section w3-center">
