@@ -1,5 +1,5 @@
 body {
-   background-color: rgb(245, 245, 245);
+   background-color: rgb(255, 255, 255);
 }
 .content {
     max-width: 500px;
@@ -11,7 +11,9 @@ body {
 .tab {
     overflow: hidden;
     border: none;
-    background-color: none;
+    /* background-color: none; */
+    /* background-color: rgba(229, 232, 254, 0.833);
+    border-radius: 1%; */
     text-align: center;
     font-weight:lighter ;
     font-family: 'Source Sans Pro';
@@ -19,7 +21,7 @@ body {
   
 /* Style the buttons inside the tab */
 .tab button {
-    background-color: white;
+    background-color: rgb(255, 243, 201);
     background: none;
 	color: inherit;
 	border: none;
@@ -37,21 +39,27 @@ body {
 /* Change background color of buttons on hover */
 .tab button:hover {
     /* background-color: #ddd; */
-    color: rgb(185, 185, 185);
+    /* color: rgb(173, 162, 240); */
+    color: rgba(105, 140, 255, 0.833)
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
-    color: rgb(185, 185, 185);
+    /* color: rgb(185, 185, 185); */
+    /* color: rgb(173, 162, 240);*/
+   color: rgba(105, 140, 255, 0.833)
 }
 
 /* Style the tab content */
 .tabcontent {
-    max-width: 500px;
+    max-width:500px;
     margin: auto;
     /* background: white; */
     font-size: 13px;
     padding: 10px;
+    text-align: justify;
+    /* background-color: antiquewhite;
+    border-radius: 5%; */
 }
 
 h2 {
@@ -78,34 +86,42 @@ p {
     font-size: 13px;
 }
 
-#about {
-    text-align: justify;
-}
-
-#home {
-    text-align: center;
-}
-
 #profile {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 15px;
+    float: left; 
+    border-radius: 5%;
+    /* border: 5px solid rgba(190, 190, 190, 0.274); */
+    box-shadow: 0px 3px 3px #83899085;
+    
+}
+
+/* #typing {
+    width: 230px;
+    height: 230px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* border: 5px solid rgba(190, 190, 190, 0.274); 
+    
+} */
+
+#typing {
+    width: 200px;
+    height: 200px;
     display: block;
     /* margin-left: auto;
     margin-right: auto; */
     margin: 15px;
     float: left; 
     /* border: 5px solid rgba(190, 190, 190, 0.274); */
-    
-}
-
-#typing {
-    width: 230px;
-    height: 230px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* border: 5px solid rgba(190, 190, 190, 0.274); */
-    
+    background-color: rgba(218, 233, 255, 0.833);
+    border-radius: 5%;
+    box-shadow:0px 3px 3px #69abfb85;
 }
 
 #links {
