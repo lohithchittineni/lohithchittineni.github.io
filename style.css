@@ -40,14 +40,14 @@ body {
 .tab button:hover {
     /* background-color: #ddd; */
     /* color: rgb(173, 162, 240); */
-    color: rgba(105, 140, 255, 0.833)
+    color: rgba(89, 94, 111, 0.833)
 }
 
 /* Create an active/current tablink class */
 .tab button.active {
     /* color: rgb(185, 185, 185); */
     /* color: rgb(173, 162, 240);*/
-   color: rgba(105, 140, 255, 0.833)
+   color:  rgba(89, 94, 111, 0.833)
 }
 
 /* Style the tab content */
