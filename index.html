@@ -14,93 +14,105 @@
 
     <body onload="typeWriter()"> 
 
-      <div class="content" >
+      <div class="content" id="page-container">
         <!-- <p style="text-align: center;">Lohith Chittineni</p> -->
-        <div class="tab">
-          <button class="tablinks" onclick="openSection(event, 'home')" id="defaultOpen">Home</button>
-          <button class="tablinks" onclick="openSection(event, 'about')">About</button>
-          <button class="tablinks" onclick="openSection(event, 'interests')">Interests</button>
-          <!-- <button class="tablinks" onclick="openSection(event, 'experience')">Experience</button> -->
-          <button class="tablinks" onclick="openSection(event, 'learning')">Learning</button>
-        </div>
-        <div id="home" class="tabcontent">
-          <img id="typing" src="images/typing3.png" alt="Typing 3">
-          <p id="demo" style="font-size: 20px; text-align: center;"></p>
-        </div>
-
-        <div id="about" class="tabcontent">
-          <!-- <h3>About</h3> -->
-          <img id="profile" src="images/profile.jpg" alt="Profile Img">
-          <p>I am from the Greater Boston Area, but now living in the Bay Area. I am graduated from Purdue University with a 
-            Bachelor's Degree in Computer Engineering Dec. 2021. I am currently a graduate student at Purdue University 
-            working towards my Master's in Computer Engineering. I am also working as a Software Engineering Intern at Aviatrix and will be continuing there full time 
-            starting Summer 2022.
-          </p>
-        </div>
-        <div id="interests" class="tabcontent">
-          <!-- <h3>Interests</h3> -->
-          <!-- <img id="typing" style="background-color: rgb(205, 255, 253); box-shadow:0px 3px 3px #85d1e890"  -->
-          <img id="typing" src="images/typing2.png" alt="Typing 2 image">
-          <p> My main interests are in Cloud Computing, Embedded Systems, Systems Software, and Big Data Analytics. 
-            Areas I want to work in include Medical Devices and Systems, Wireless and Cyber-Physical Systems, IoT for 
-            Healthcare engineering systems and smart connected cities, as well as Cloud-connected, and Wearable embedded computing.
-          </p>
-          <p>
-            Currently a Member of Techincal Staff at Aviatrix in Santa Clara, CA.
-            In the past I've worked at Qualcomm as a Software Engineering Intern on the Modem Systems Test Engineering Team.
-            I've worked at Hewlett Packard Enterprise as a Firmware Development Intern on the Platform Team and
-            Control Plane Team for their High Performance Compute Network. I've also been an Analytics Software Intern for LiveData Inc.
-            on the Analytics Team.<br><br>
-
-            Here's a copy of my <a href="pdfs\Lohith Chittineni Resume 2022.pdf">resume</a> for more information.
-          </p>
-        </div>
-        <!-- <div id="experience" class="tabcontent">
-          <!-- <h3>Experience</h3> -->
-          
-          <!-- <img id="typing" style="background-color: rgb(255, 251, 205); box-shadow:0px 3px 3px #ffd97aac"
-            src="images/typing1.png" alt="Typing 3 image">
-          <p>
-            Currently a Member of Techincal Staff at Aviatrix in Santa Clara, CA.
-            In the past I've worked at Qualcomm as a Software Engineering Intern on the Modem Systems Test Engineering Team.
-            I've worked at Hewlett Packard Enterprise as a Firmware Development Intern on the Platform Team and
-            Control Plane Team for their High Performance Compute Network. I've also been an Analytics Software Intern for LiveData Inc.
-            on the Analytics Team.<br><br>
-
-            Here's a copy of my <a href="pdfs\Lohith Chittineni Resume 2022.pdf">resume</a> for more information.
-          </p>
-        </div> --> 
-        <div id="learning" class="tabcontent">
-          <!-- <h3>Experience</h3> -->
-          <!-- <img id="typing" style="background-color: rgb(232, 228, 254); box-shadow:0px 3px 3px #cecdffac" -->
-          <img id="typing"  src="images/typing1.png" alt="Typing 3 image">
-          <p>
-            Links to various learning resources and courses gathered over time. <br>
-            
-            Algorithms/Data Structures: <br>
-            
-            Distributed Systems: <br>
-
-            Human-Computer Interaction: <br>
-            
-            Parallel Programming:<br>
-
-            Machine Learning: <br> 
-
-            Computer Architecture/ Embedded Systems: <br>
-
-          </p>
-        </div>
-        <footer>
-          <p style="text-align: center;">Contact me or checkout my other profiles!</p>
-          <div id="links" class="w3-xlarge w3-section w3-center">
-            <a href="http://www.linkedin.com/in/lohithchittineni"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-            <a href="http://www.github.com/lohithchittineni"><i class="fa fa-github w3-hover-opacity "></i></a>
-            <a href="mailto: lchittin@purdue.edu"><i class="fa fa-envelope w3-hover-opacity "></i></a>
+        <div id="content-wrap">
+          <div class="tab">
+            <button class="tablinks" onclick="openSection(event, 'home')" id="defaultOpen">Home</button>
+            <button class="tablinks" onclick="openSection(event, 'about')">About</button>
+            <button class="tablinks" onclick="openSection(event, 'interests')">Interests</button>
+            <!-- <button class="tablinks" onclick="openSection(event, 'contact')">Contact</button> -->
+            <!-- <button class="tablinks" onclick="openSection(event, 'experience')">Experience</button> -->
+            <!-- <button class="tablinks" onclick="openSection(event, 'learning')">Learning</button> -->
           </div>
-        </footer>
+          <div id="home" class="tabcontent">
+            <img id="typing" src="images/typing3.png" alt="Typing 3">
+            <p id="demo" style="font-size: 20px; text-align: center;"></p>
+          </div>
 
+          <div id="about" class="tabcontent">
+            <!-- <h3>About</h3> -->
+            <img id="profile" src="images/profile.jpg" alt="Profile Img">
+            <p>I am from the Greater Boston Area, but now living in the Bay Area. I am graduated from Purdue University with a 
+              Bachelor's Degree in Computer Engineering Dec. 2021. I am currently a graduate student at Purdue University 
+              working towards my Master's in Computer Engineering. I am also working as a Software Engineering Intern at Aviatrix and will be continuing there full time 
+              starting Summer 2022.
+            </p>
+          </div>
+          <div id="interests" class="tabcontent">
+            <!-- <h3>Interests</h3> -->
+            <!-- <img id="typing" style="background-color: rgb(205, 255, 253); box-shadow:0px 3px 3px #85d1e890"  -->
+            <img id="typing" src="images/typing2.png" alt="Typing 2 image">
+            <p> My main interests are in Cloud Computing, Embedded Systems, Systems Software, and Big Data Analytics. 
+              Areas I want to work in include Medical Devices and Systems, Wireless and Cyber-Physical Systems, IoT for 
+              Healthcare engineering systems and smart connected cities, as well as Cloud-connected, and Wearable embedded computing.
+            </p>
+            <p>
+              Currently a Member of Techincal Staff at Aviatrix in Santa Clara, CA.
+              In the past I've worked at Qualcomm as a Software Engineering Intern on the Modem Systems Test Engineering Team.
+              I've worked at Hewlett Packard Enterprise as a Firmware Development Intern on the Platform Team and
+              Control Plane Team for their High Performance Compute Network. I've also been an Analytics Software Intern for LiveData Inc.
+              on the Analytics Team.<br><br>
+
+              Here's a copy of my <a href="pdfs\Lohith Chittineni Resume 2022.pdf">resume</a> for more information.
+            </p>
+          </div>
+          <!-- <div id="experience" class="tabcontent">
+            <!-- <h3>Experience</h3> -->
+            
+            <!-- <img id="typing" style="background-color: rgb(255, 251, 205); box-shadow:0px 3px 3px #ffd97aac"
+              src="images/typing1.png" alt="Typing 3 image">
+            <p>
+              Currently a Member of Techincal Staff at Aviatrix in Santa Clara, CA.
+              In the past I've worked at Qualcomm as a Software Engineering Intern on the Modem Systems Test Engineering Team.
+              I've worked at Hewlett Packard Enterprise as a Firmware Development Intern on the Platform Team and
+              Control Plane Team for their High Performance Compute Network. I've also been an Analytics Software Intern for LiveData Inc.
+              on the Analytics Team.<br><br>
+
+              Here's a copy of my <a href="pdfs\Lohith Chittineni Resume 2022.pdf">resume</a> for more information.
+            </p>
+          </div> --> 
+          <!-- <div id="learning" class="tabcontent"> -->
+            <!-- <h3>Experience</h3> -->
+            <!-- <img id="typing" style="background-color: rgb(232, 228, 254); box-shadow:0px 3px 3px #cecdffac" -->
+            <!-- <img id="typing"  src="images/typing1.png" alt="Typing 3 image">
+            <p>
+              Links to various learning resources and courses gathered over time. <br>
+              
+              Algorithms/Data Structures: <br>
+              
+              Distributed Systems: <br>
+
+              Human-Computer Interaction: <br>
+              
+              Parallel Programming:<br>
+
+              Machine Learning: <br> 
+
+              Computer Architecture/ Embedded Systems: <br>
+
+            </p> -->
+          <!-- </div> -->
+           <!-- <div id="contact" class="tabcontent">
+            <p style="text-align: center;">Contact me or checkout my other profiles!</p>
+            <div id="links" class="w3-xlarge w3-section w3-center">
+              <a href="http://www.linkedin.com/in/lohithchittineni"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+              <p>linkedin.com/in/lohithchittineni</p>
+              <a href="http://www.github.com/lohithchittineni"><i class="fa fa-github w3-hover-opacity "></i></a>
+              <a href="mailto: lchittin@purdue.edu"><i class="fa fa-envelope w3-hover-opacity "></i></a>
+            </div>
+            </div> -->
+          <footer id="footer">
+            <p style="text-align: center;">Contact me or checkout my other profiles!</p>
+            <div id="links" class="w3-xlarge w3-section w3-center">
+              <a href="http://www.linkedin.com/in/lohithchittineni"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+              <a href="http://www.github.com/lohithchittineni"><i class="fa fa-github w3-hover-opacity "></i></a>
+              <a href="mailto: lchittin@purdue.edu"><i class="fa fa-envelope w3-hover-opacity "></i></a>
+            </div>
+          </footer>
+        </div>
       </div>
+
       <script>
         function openSection(evt, sectionName) {
           var i, tabcontent, tablinks;
