@@ -203,7 +203,7 @@ img:hover {
 }
 
 a:hover {
-    color: rgb(101, 67, 255);
+    color: rgb(255, 38, 0);
     background-color: transparent;
     text-decoration: underline;
 }
