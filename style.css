@@ -201,3 +201,9 @@ img:hover {
     filter: none;
     -webkit-filter: grayscale(0);
 }
+
+a:hover {
+    color: rgb(101, 67, 255);
+    background-color: transparent;
+    text-decoration: underline;
+}
