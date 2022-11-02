@@ -1,5 +1,5 @@
 body {
-   background-color: rgb(254, 247, 231); 
+   background-color: rgb(255, 234, 230); 
    background-image: url('images/background-2.png');
    background-attachment: fixed;
    background-size: cover;
@@ -160,7 +160,7 @@ ul {
   } */
 
 #links {
-    color: rgb(255, 91, 58);
+    color: rgb(92, 104, 209);
     margin-left: auto;
     margin-right: auto;
 }
@@ -180,7 +180,7 @@ ul {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: rgb(255, 91, 58);
+    background-color: rgb(92, 104, 209);
     transform-origin: bottom right;
     transition: transform 0.4s ease-out;
 }
@@ -203,7 +203,7 @@ img:hover {
 }
 
 a:hover {
-    color: rgb(255, 38, 0);
+    color: rgb(92, 104, 209);
     background-color: transparent;
     text-decoration: underline;
 }
