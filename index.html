@@ -1,95 +1,60 @@
 <!DOCTYPE html>
-<html  lang="en">
-  <head>
-    <title>Lohith Chittineni</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Sans Pro">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body onload="typeWriter()"> 
-
-    <div class="content" id="page-container">
-      <div id="content-wrap">
-      <div class="tab">
-          <button class="tablinks" onclick="openSection(event, 'home')" id="defaultOpen">Home</button>
-          <button class="tablinks" onclick="openSection(event, 'about')">About</button>
-          <button class="tablinks" onclick="openSection(event, 'interests')">Interests</button>
-      </div> 
-      <div id="home" class="tabcontent">
-        <img id="typing" src="images/pic1.jpg" alt="Typing 1 Image">
-        <p id="demo" style="font-size: 20px; text-align: center;"></p>
-      </div>
-
-      <div id="about" class="tabcontent">
-        <img id="profile" src="images/profile.jpg" alt="Profile Img">
-        <p>I am from the Greater Boston Area, but now living in the San Francisco Bay Area. I graduated from Purdue University with a 
-          Bachelor's Degree in Computer Engineering Dec. 2021. I am currently a graduate student at Purdue University 
-          working towards my Master's in Computer Engineering. I am also working as a Software Engineering Intern at Aviatrix and will be continuing there full time 
-          starting Summer 2022.
-        </p>
-      </div>
-      <div id="interests" class="tabcontent">
-        <img id="typing" src="images/pic2.jpg" alt="Typing 2 image">
-        <p> My main interests are in Cloud Computing, Embedded Systems, Systems Software, and Big Data Analytics. 
-          Areas I want to work in include Medical Devices and Systems, Wireless and Cyber-Physical Systems, IoT for 
-          Healthcare engineering systems and smart connected cities, as well as Cloud-connected, and Wearable embedded computing.
-        </p>
-        <p>
-          Currently a Member of Techincal Staff at Aviatrix in Santa Clara, CA.
-          In the past I've worked at Qualcomm as a Software Engineering Intern on the Modem Systems Engineering Team.
-          I've worked at Hewlett Packard Enterprise as a Firmware Development Intern on the Platform Team and
-          Control Plane Team for their High Performance Compute Network. I've also been an Analytics Software Intern for LiveData Inc.
-          on the Analytics Team.<br><br>
-
-          Here's a copy of my <a href="pdfs\Lohith Chittineni Resume 2022.pdf">resume</a> for more information.
-        </p>
-      </div>
-    </div> 
-    <div id="footer">
-      <div><p style="text-align: center;">Contact me or checkout my other profiles!</p></div>
-      <div id="links" class="w3-xlarge w3-section w3-center">
-        <a href="http://www.linkedin.com/in/lohithchittineni"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-        <a href="http://www.github.com/lohithchittineni"><i class="fa fa-github w3-hover-opacity "></i></a>
-        <a href="mailto: lchittin@purdue.edu"><i class="fa fa-envelope w3-hover-opacity "></i></a>
-      </div>
+    <title>About Lohith's Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="image-container"> 
+        <img src="imgs/img1.jpg" alt="Image" width="402" height="75">
+        <div class="text-overlay">
+            <header>
+                <h1>Lohith Chittineni</h1>
+            </header>
+        </div>
     </div>
+    <nav>
+        <a href="index.html">About</a> | <a href="contact.html">Contact</a> | <a href="blog.html">Blog</a>
+    </nav>
 
-    <script>
-      function openSection(evt, sectionName) {
-        var i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabcontent");
-        for (i = 0; i < tabcontent.length; i++) {
-          tabcontent[i].style.display = "none";
-        }
-        tablinks = document.getElementsByClassName("tablinks");
-        for (i = 0; i < tablinks.length; i++) {
-          tablinks[i].className = tablinks[i].className.replace(" active", "");
-        }
-        document.getElementById(sectionName).style.display = "block";
-        evt.currentTarget.className += " active";
-      }
-      document.getElementById("defaultOpen").click();
-      </script>
+    <section id="about">
+        <h2>About me</h2>
+        <img src="imgs/profile.jpg" alt="Profile Image" width="150" height="150">
+        <h4>Currently</h4>
+        <ul>
+            <li>Software Engineer at Aviatrix(2022-present)</li>
+            <li>Living in California(over a year now)</li>
+        </ul>
+        <h4>Formerly</h4>
+        <ul>
+            <li>Purdue Univeristy(2018-2023)</li>
+            <ul>
+                <li>Studied Computer Engineering</li>
+                <li>Teaching Assistant</li>
+                <li>Completed Masters and Bachelors</li>
+            </ul>
+            <li>Intern at Aviatrix, Qualcomm, HPE, LiveData</li>
+            <li>From Boston, MA</li>
+        </ul>
+        <h4>Current Interests</h4>
+        <ul>
+            <li>Programming</li>
+            <li>Exploring California</li>
+            <li>Cooking, growing vegetables</li>
+            <li>Watching Movies, TV Shows</li>
+            <li>Podcasts</li>
+        </ul>
+        <h4>Past Interests</h4>
+        <ul>
+            <li>Running</li>
+        </ul>
+    </section>
 
-      <script>
-        var i = 0;
-        var txt = "Hey, I'm Lohith! Welcome to my website!";
-        var speed = 150;
-        
-        function typeWriter() {
-          if (i < txt.length) {
-            document.getElementById("demo").innerHTML += txt.charAt(i);
-            i++;
-            setTimeout(typeWriter, speed);
-          }
-        }
-      </script>
-
-  </body>
+    <footer>
+        <p>&copy; 2023 Lohith Chittineni</p>
+    </footer>
+</body>
 </html>
-
