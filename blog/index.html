@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Lohith's Website</title>
     <link href='https://fonts.googleapis.com/css?family=Source Sans Pro' rel='stylesheet'>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="../style.css">
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-C5T6K4WMVG"></script>
     <script>
@@ -17,20 +17,11 @@
     </script>
 </head>
 <body>
-    <div class="image-container"> 
-        <img src="imgs/img1.jpg" alt="Image" width="402" height="75">
-        <div class="text-overlay">
-            <header>
-                <h1>Lohith Chittineni</h1>
-            </header>
-        </div>
-    </div>
-    <nav>
-        <a href="index.html">About</a> | <a href="contact.html">Contact</a> | <a href="blog.html">Blog</a>
-    </nav>
+    <div data-include="../header.html"></div>
+    <div data-include="../nav.html"></div>
 
-    <section id="blog">
-        <h2>medium articles</h2>
+     <section id="blog">
+        <h2>Medium Articles</h2>
         <ul>
             <li>
                 <a href="https://medium.com/distributed-systems-series/using-total-order-broadcasting-to-build-consensus-services-3d2555afaf31">
@@ -50,8 +41,7 @@
         </ul>
     </section>
 
-    <footer>
-        <p>&copy; 2025 Lohith Chittineni</p>
-    </footer>
+    <div data-include="../footer.html"></div>
+    <script src="../include.js"></script>
 </body>
 </html>
