@@ -20,8 +20,19 @@
 
 body { 
     font-family: 'Source Sans Pro';
-   
 }
+
+.centered-block {
+  max-width: 800px;
+  margin: 0 auto;           /* centers the block */
+  padding: 20px;
+  text-align: left;         /* keeps text inside left-aligned */
+  /* background-color: #f9f9f9; optional: gives visual distinction */
+  border-radius: 8px;       /* optional: rounded corners */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); optional: subtle shadow */
+  position: relative;
+}
+
 
 p {
     font-size: 14px;
@@ -49,7 +60,7 @@ a:hover {
 }
 
 /* Add this to your style.css */
-.navbar {
+/* .navbar {
   display: flex;
   gap: 1rem;
   justify-content: center;
@@ -66,4 +77,50 @@ a:hover {
 
 .navbar a:hover {
   color: #007acc;
+} */
+
+/* Hamburger Menu */
+/* Container positions it top-right */
+.hamburger-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Hide checkbox */
+#menu-toggle {
+  display: none;
+}
+
+/* Hamburger icon */
+.hamburger {
+  font-size: 28px;
+  cursor: pointer;
+  user-select: none;
+}
+
+/* Menu styling */
+.menu {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 100;
+  border-radius: 5%;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Show menu when checkbox is checked */
+#menu-toggle:checked + .hamburger + .menu {
+  display: flex;
 }
