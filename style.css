@@ -87,27 +87,27 @@ a:hover {
 
 /* Hamburger Menu */
 /* Container positions it top-right */
-.hamburger-container {
+/* .hamburger-container {
   position: absolute;
   top: 20px;
   right: 20px;
   color:#000000;
-}
+} */
 
 /* Hide checkbox */
-#menu-toggle {
+/* #menu-toggle {
   display: none;
-}
+} */
 
 /* Hamburger icon */
-.hamburger {
+/* .hamburger {
   font-size: 28px;
   cursor: pointer;
   user-select: none;
-}
+} */
 
 /* Menu styling */
-.menu {
+/* .menu {
   display: none;
   flex-direction: column;
   position: absolute;
@@ -118,9 +118,9 @@ a:hover {
   padding: 10px;
   z-index: 100;
   border-radius: 5%;
-}
+} */
 
-.menu a {
+/* .menu a {
   text-decoration: none;
   color: black;
   padding: 8px 0;
@@ -129,10 +129,10 @@ a:hover {
 
 .menu a:hover {
   color: #1877F2;
-}
+} */
 
 /* Show menu when checkbox is checked */
-#menu-toggle:checked + .hamburger + .menu {
+/* #menu-toggle:checked + .hamburger + .menu {
   display: flex;
 }
 
@@ -143,8 +143,42 @@ a:hover {
 .menu,
 body {
   background-color: #fffef8;
-}
+} */
 
 /* section h3 {
   color: #1877F2;
 } */
+
+/* Navbar container */
+.navbar {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Menu styling (horizontal) */
+.menu {
+  display: flex;
+  gap: 20px; /* space between links */
+  background-color: transparent;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+}
+
+.menu a:hover {
+  color: #1877F2;
+}
+
+/* Keep page background */
+.header-container,
+.centered-block,
+.navbar,
+.menu,
+body {
+  background-color: #fffef8;
+}
